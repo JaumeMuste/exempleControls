@@ -27,7 +27,8 @@ namespace exempleControls
         private void button2_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
-            f1.rebredades(textBox1.Text);
+            f1.rebredades(textBox1.Text, Convert.ToInt32( textBox2.Text), Convert.ToInt32(textBox3.Text));
+            //f1.Show();
             this.Close();
         }
     }
